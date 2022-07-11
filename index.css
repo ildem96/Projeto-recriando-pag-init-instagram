@@ -1,0 +1,161 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration:none;
+    outline: none;
+    border:;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+body{
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.card-login{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    width:20em;
+}
+
+.main-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+.logo-insta{
+    padding:5px;
+    width:200;
+    margin:18px 0px 18px 0px ;
+    }
+
+
+
+.formulario{
+    padding:20px;
+    background-color:#fff;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:9px;
+    flex-direction:column;
+    border:#bebebe solid 1px;
+}
+
+.formulario input{
+    
+    min-width:90%;
+    height:20px;
+    margin:3px;
+    border-radius: 3px;
+    padding:5px;
+    border:#bebebe solid 1px;
+    outline:;
+    font-size:12px;
+    
+
+}
+
+span{
+    display:flex;
+    flex-direction:row;
+    margin:10px;   
+}
+strong{
+    color:dodgerblue;
+}
+
+.botoes{
+    display:flex;
+    flex-direction: row;
+    border:none;
+    max-width: 100%;
+    align-items:center;
+    justify-content: center;
+}
+.botoes img{
+    margin:10px;
+}
+
+
+
+.login-fb img{
+    width:15px;
+    height:15px;
+}
+
+.card-login img{
+    width:250px:
+    
+}
+
+.botao_login{
+    font-weight:bold;
+    font-size: 13px;
+    color:#fff;
+    width: 94%;
+    height:30px;
+    margin-bottom:20px;
+    margin-top:20px;
+    background-color:dodgerblue;
+    outline:none;
+    border-radius: 3px;
+    border:none;   
+}
+
+.tema{
+    padding:10px;
+}
+
+.login-fb{
+    flex-direction:column;
+    display:flex;
+    flex-direction: ;
+    align-items:center;
+    justify-content:center;
+    /*border:#bebebe solid 1px;*/
+    width:100%;
+    height:50px;
+    margin-bottom:20px;
+}
+
+.login-fb02{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 20px;
+}
+.links-uteis{
+    width:23em;
+    height:50px;
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    border:#bebebe solid 1px;;
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+
+@media(max-width:1024px){
+    .card-login{width:90%;}
+}
+
+@media(max-width:650px){
+    body{
+        background-color:#ffff;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+
+    .img-phone{
+        display:none;
+    }
+
+}
