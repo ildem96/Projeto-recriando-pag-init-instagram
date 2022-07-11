@@ -13,8 +13,8 @@ _recriando a página do instagram_
 
 ### Tecnologias usadas no projeto : 
 
-Html5
-Css3
-git
-github
-Linux - Debian
+> Html5
+> Css3
+> Git
+> github
+> Linux - Debian
